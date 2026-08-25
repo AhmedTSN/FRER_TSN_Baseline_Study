@@ -1,0 +1,18 @@
+# Ignore raw simulation files (Uploaded to Google Drive)
+raw_results/*
+!raw_results/.gitkeep
+
+# Python temporary and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE settings
+.vscode/
+.idea/
+
+# OMNeT++ / INET generated intermediate files
+*.vec
+*.sca
+*.vci
+*.out

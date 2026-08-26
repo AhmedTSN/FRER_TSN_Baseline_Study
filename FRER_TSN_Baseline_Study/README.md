@@ -8,6 +8,12 @@ This repository contains the complete simulation models, configuration files, co
 > *Submitted to the International Journal of Intelligent Engineering and Systems (IJIES)*
 
 ---
+## Citation
+
+If you use this repository or reproduce the results, please cite:
+
+AhmedTSN. (2026). *FRER_TSN_Baseline_Study: Reproducibility Archive v1.1*.
+Zenodo. https://doi.org/10.5281/zenodo.22116011
 
 ## Repository Overview
 

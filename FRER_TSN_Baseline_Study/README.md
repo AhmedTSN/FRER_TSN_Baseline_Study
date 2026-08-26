@@ -196,7 +196,7 @@ They can also be inspected directly using the OMNeT++ IDE Analysis Tool.
 ### Simulation Environment
 
 * **OMNeT++:** 6.2.0 or later
-* **INET Framework:** 4.4.0
+* **INET Framework:** 4.4.0 (methodology follows the official INET 4.6 documentation)
 * **Python:** 3.8 or later
 
 The experiments reported in the manuscript were conducted using **OMNeT++ 6.2.0 and INET 4.4.0**.

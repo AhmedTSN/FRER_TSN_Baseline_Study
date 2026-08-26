@@ -1,28 +1,38 @@
-
----
-
 ## Requirements
 
 ### Software
-- **OMNeT++** 6.2.0 (or later)
-- **INET Framework** 4.4.0 (methodology follows the official INET 4.6 documentation)
-- **Python** 3.8+ (for analysis scripts)
 
-### Python Dependencies (see `requirements.txt`)
+- **OMNeT++:** 6.2.0 (or later)
+- **INET Framework:** 4.4.0
+- **Python:** 3.8+ (for analysis scripts)
+
+The experiments reported in the manuscript were conducted using **OMNeT++ 6.2.0** and **INET Framework 4.4.0**. The simulation methodology and configuration procedures follow the relevant guidance and documentation provided by the **official INET 4.6 documentation**.
+
+### Python Dependencies
+
+The analysis scripts require the following Python packages:
+
 - `numpy`
 - `pandas`
 - `matplotlib`
 - `seaborn`
 - `scipy`
 
----
+The required dependencies are also provided in:
+
+```text
+analysis_scripts/requirements.txt
 
 ## Setup and Installation
 
-### 1. Install OMNeT++ and INET
-Follow the official OMNeT++ installation guide. To install the exact INET version used in this work, you can use `opp_env`:
+1. Install OMNeT++ and INET
 
-```bash
+The experiments reported in the manuscript were conducted using OMNeT++ 6.2.0 with INET Framework 4.4.0.
+
+To install the exact INET version used in this work, opp_env can be used:
+
 opp_env install --init -w inet-workspace --build-modes=release inet-4.4.0
 cd inet-workspace
 opp_env shell
+
+Alternatively, INET 4.4.0 can be imported manually into the OMNeT++ IDE.

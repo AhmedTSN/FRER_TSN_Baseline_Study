@@ -116,13 +116,15 @@ FRER_TSN_Baseline_Study/
 │   │
 │   └── 100byte_packets_seed0/
 │       └── omnetpp_seed0_100B.ini
-│
+│   └── Drain experiment with stopTime=10s
+│       └── Drain experiment with stopTime=10s.ini
 ├── analysis_scripts/
 │   ├── requirements.txt
 │   ├── extract_raw_data.py
 │   ├── statistical_analysis.py
 │   ├── calculate_TSI.py
 │   └── generate_figures.py
+│   └── TSI Validation Analysis
 │
 ├── processed_results/
 │   ├── automatic_configuration_results.xlsx
@@ -131,6 +133,7 @@ FRER_TSN_Baseline_Study/
 │   ├── manual_packet_life_time_histogram.xlsx
 │   └── autoFRER-10.2s-seed0-results.xlsx
 │   └── autoFRER-100b-seed0-results.xlsx
+│   └── TSI Validation Analysis-results.xlsx
 └── figures/
     ├── Figure1_topology_landscape.png
     ├── Figure2_delay_evolution.png

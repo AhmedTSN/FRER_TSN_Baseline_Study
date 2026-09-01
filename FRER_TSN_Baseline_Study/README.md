@@ -124,7 +124,7 @@ FRER_TSN_Baseline_Study/
 │   ├── statistical_analysis.py
 │   ├── calculate_TSI.py
 │   └── generate_figures.py
-│   └── TSI Validation Analysis
+│   └── TSI Validation Analysis.py
 │
 ├── processed_results/
 │   ├── automatic_configuration_results.xlsx
